@@ -1,6 +1,6 @@
 {
   "name": "wallabees",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "HTTP Client Cache",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "commit": "git-cz",
     "precommit": "npm test",
     "prepush": "npm test",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
@@ -25,6 +26,11 @@
     "tap": "^10.7.3",
     "codecov": "^3.0.0",
     "cz-conventional-changelog": "^2.1.0",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "semantic-release": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/wallabees.git"
   }
 }
