@@ -1,7 +1,7 @@
 {
   "name": "wallabees",
   "version": "0.1.0",
-  "description": "",
+  "description": "HTTP Client Cache",
   "main": "index.js",
   "scripts": {
     "test": "tap tests/test-*.js --100",
@@ -17,7 +17,8 @@
   "dependencies": {
     "bent": "^1.1.0",
     "bl": "^1.2.1",
-    "multihasher": "^1.0.0"
+    "multihasher": "^1.0.0",
+    "wreck": "^14.0.2"
   },
   "devDependencies": {
     "standard": "^10.0.3",
